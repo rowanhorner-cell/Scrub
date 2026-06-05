@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Minto Window Cleaning | Professional Cleaning Services</title>
+  <title>ScrubHub Ontario | Window & Gutter Cleaning</title>
 
   <link rel="stylesheet" href="style.css" />
 
@@ -17,7 +17,7 @@
 <body>
   <header class="site-header">
     <div class="brand">
-      <img src="logo.png" alt="Minto Window Cleaning Logo" class="logo" />
+      <img src="logo.png" alt="ScrubHub Ontario Logo" class="logo" />
     </div>
 
     <nav class="nav-links">
@@ -31,12 +31,21 @@
   <main>
     <section class="hero" id="about">
       <div class="hero-content">
-        <p class="eyebrow">Student Run. Locally Owned.</p>
-        <h1>Professional Window Cleaning in Peterborough</h1>
+        <p class="eyebrow">Window & Gutter Cleaning</p>
+        <h1>Professional Cleaning Services in Peterborough</h1>
         <p>
-          Reliable, high-quality window cleaning services for homes and businesses.
-          We provide professional results with friendly local service.
+          ScrubHub Ontario provides reliable window and gutter cleaning for homes
+          in Peterborough and surrounding areas. We focus on clean results,
+          straightforward service, and free estimates.
         </p>
+
+        <ul class="hero-checklist">
+          <li><i class="fa-solid fa-circle-check"></i> Hand-scrubbed using deionized water for a spotless, streak-free finish</li>
+          <li><i class="fa-solid fa-circle-check"></i> Free estimates</li>
+          <li><i class="fa-solid fa-circle-check"></i> $5,000,000 liability insurance</li>
+          <li><i class="fa-solid fa-circle-check"></i> Serving Peterborough and surrounding areas</li>
+        </ul>
+
         <a href="#quote" class="primary-btn quote-jump">Get My Quote</a>
       </div>
     </section>
@@ -44,7 +53,7 @@
     <section class="quote-section" id="quote">
       <div class="section-title">
         <h2>Request a Quote</h2>
-        <p>Tell us a few details and we’ll get back to you with an estimate.</p>
+        <p>Tell us what you need cleaned and we’ll get back to you with an estimate.</p>
       </div>
 
       <form class="quote-form">
@@ -59,7 +68,7 @@
             <input id="email" type="email" placeholder="name@email.com" required />
 
             <label for="phone">Phone Number</label>
-            <input id="phone" type="tel" placeholder="(123) 456-7890" required />
+            <input id="phone" type="tel" placeholder="705-761-0628" required />
           </div>
 
           <div class="form-box">
@@ -68,14 +77,19 @@
             <label for="address">Address</label>
             <input id="address" type="text" placeholder="123 Street Ave" required />
 
-            <label for="window-count">Estimated Number of Windows</label>
-            <input id="window-count" type="number" placeholder="20" min="1" />
+            <label for="service">Service Needed</label>
+            <select id="service" required>
+              <option value="">Select a service</option>
+              <option value="window-cleaning">Window Cleaning</option>
+              <option value="gutter-cleaning">Gutter Cleaning</option>
+              <option value="both">Window and Gutter Cleaning</option>
+            </select>
 
             <label for="message">Additional Details</label>
             <textarea
               id="message"
               rows="5"
-              placeholder="Tell us about the property, access, timing, or any special requests."
+              placeholder="Tell us about the property, number of windows, gutter access, timing, or any special requests."
             ></textarea>
           </div>
         </div>
@@ -87,39 +101,29 @@
     <section class="services-section" id="services">
       <div class="section-title">
         <h2>Our Services</h2>
-        <p>Clean, streak-free results for residential and commercial properties.</p>
+        <p>Focused residential cleaning services with professional results.</p>
       </div>
 
-      <div class="services-grid">
+      <div class="services-grid two-services">
         <article class="service-card">
           <img src="image1.jpg" alt="Window cleaning service" />
           <div class="service-card-content">
             <h3>Window Cleaning</h3>
             <p>
-              Interior and exterior window cleaning for homes, rental properties,
-              storefronts, and small businesses.
+              Hand-scrubbed window cleaning using deionized water for a spotless,
+              streak-free finish. Ideal for homes, rental properties, and small
+              residential jobs.
             </p>
           </div>
         </article>
 
         <article class="service-card">
-          <img src="image2.jpg" alt="Professional window cleaning equipment" />
+          <img src="image2.jpg" alt="Gutter cleaning service" />
           <div class="service-card-content">
-            <h3>Professional Cleaning</h3>
+            <h3>Gutter Cleaning</h3>
             <p>
-              Careful, detail-focused service using proper equipment and safe cleaning
-              practices for a polished finish.
-            </p>
-          </div>
-        </article>
-
-        <article class="service-card">
-          <img src="image3.jpg" alt="Exterior home cleaning" />
-          <div class="service-card-content">
-            <h3>Exterior Touch-Ups</h3>
-            <p>
-              Light exterior cleaning support for glass, frames, and surrounding areas
-              to improve the overall appearance of your property.
+              Gutter cleaning to help remove buildup, improve water flow, and protect
+              your home from overflow issues during rain.
             </p>
           </div>
         </article>
@@ -134,33 +138,52 @@
   <footer class="site-footer" id="contact">
     <div class="footer-container">
       <div class="footer-logo">
-        <img src="logo.png" alt="Minto Window Cleaning Logo" />
+        <img src="logo.png" alt="ScrubHub Ontario Logo" />
       </div>
 
       <div class="footer-info">
         <h3>Contact</h3>
-        <p>Peterborough, Ontario</p>
+
         <p>
-          <a href="mailto:contact@mintowindowcleaning.com">
-            contact@mintowindowcleaning.com
+          <i class="fa-solid fa-user"></i>
+          Haydon Meade
+        </p>
+
+        <p>
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:7057610628">705-761-0628</a>
+        </p>
+
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:scrubhubontario@gmail.com">
+            scrubhubontario@gmail.com
           </a>
         </p>
+
         <p>
-          <a href="tel:1234567890">(123) 456-7890</a>
+          <i class="fa-solid fa-location-dot"></i>
+          Peterborough and surrounding areas
         </p>
       </div>
 
       <div class="footer-links">
-        <h3>Quick Links</h3>
-        <a href="#about">About</a>
-        <a href="#quote">Quote</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+        <h3>Social</h3>
+
+        <a href="https://facebook.com/scrubhubontario" target="_blank">
+          <i class="fa-brands fa-facebook"></i>
+          facebook.com/scrubhubontario
+        </a>
+
+        <a href="https://instagram.com/scrubhubontario" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+          @scrubhubontario
+        </a>
       </div>
     </div>
 
     <div class="footer-bottom">
-      © 2026 Minto Window Cleaning. All rights reserved.
+      © 2026 ScrubHub Ontario. All rights reserved.
     </div>
   </footer>
 
